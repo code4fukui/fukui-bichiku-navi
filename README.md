@@ -4,6 +4,12 @@
 - [備蓄カード](https://code4fukui.github.io/fukui-bichiku-navi/card.html) ([English ver.](https://code4fukui.github.io/fukui-bichiku-navi/card_en.html))
 - 備蓄ナビアプリ近日開発予定
 
+## 参画メンバー
+
+- [越前市役所](https://www.city.echizen.lg.jp/) ([防災士の会](https://www.city.echizen.lg.jp/office/010/060/bousai/bousaisinokai.html))
+- [福井高専](https://www.fukui-nct.ac.jp/)
+- [Code for FUKUI](https://code4fukui.github.io/)
+
 ## ライセンス
 本ソフトウェアは、MITライセンスのもと提供されています。
 
