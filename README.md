@@ -1,7 +1,7 @@
 # 福井備蓄ナビ
 
 - [備蓄品アイテム一覧](https://code4fukui.github.io/fukui-bichiku-navi/list.html) ([画像一覧](https://github.com/code4fukui/fukui-bichiku-navi/tree/master/docs/img))
-- [備蓄カード](https://code4fukui.github.io/fukui-bichiku-navi/card.html) ([English ver.](https://code4fukui.github.io/fukui-bichiku-navi/card_en.html)
+- [備蓄カード](https://code4fukui.github.io/fukui-bichiku-navi/card.html) ([English ver.](https://code4fukui.github.io/fukui-bichiku-navi/card_en.html))
 - 備蓄ナビアプリ近日開発予定
 
 ## ライセンス
