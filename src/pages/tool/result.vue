@@ -17,7 +17,7 @@
     "text09": "必要な数量",
     "text10": "ネットで購入する",
     "text11": "大切なペットの分も、備蓄をしよう",
-    "text13": "【東京備蓄ナビ】あなたのご家庭で必要な備蓄品リスト"
+    "text13": "【備蓄ナビえちぜん】あなたのご家庭で必要な備蓄品リスト"
   },
   "en": {
     "meta": {
@@ -295,6 +295,13 @@
                       </p>
                     </div>
                   </div>
+                  <script type="module">
+                  const lis = document.body.querySelectorAll(".ToolResult__overviewList li");
+                  for (const li of lis) {
+                    li.onclick = () => li.style.display = "none";
+                  }
+
+                  </script>
 
                   <!-- 処方箋(id: 20)と常備薬(id: 53)は買い物のURLはつけない -->
                   <template v-if="id !== 20 && id !== 53">
@@ -662,7 +669,7 @@ export default {
       let url = ''
 
       if (this.$i18n.locale === 'ja') {
-        message = '東京備蓄ナビで自分にあった備蓄を調べてみよう'
+        message = '備蓄ナビえちぜんで自分に合った備蓄を調べてみよう'
         url = '***'
       } else {
         message = 'Find out the adequate stockpiling for you'

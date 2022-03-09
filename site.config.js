@@ -6,23 +6,23 @@ export const ROUTER_BASE_DIR = process.env.ROUTER_BASE_DIR || '/'
 export const BREAK_POINT = '(max-width: 1000px)'
 export const SITE_URL = 'https://example.com'
 export const SITE_NAME = {
-  ja: '東京備蓄ナビ',
-  en: 'Tokyo Stockpiling Navi',
+  ja: '備蓄ナビえちぜん',
+  en: 'Stockpiling Navi Echizen',
 }
 export const POSTAL_CODE = {
-  ja: '***',
+  ja: '***P',
   en: '***',
 }
 export const ADMIN = {
-  ja: '***',
+  ja: '***AD',
   en: '***',
 }
 export const DEVELOPPER = {
-  ja: '***',
-  en: '***',
+  ja: 'Code for FUKUI - 備蓄ナビえちぜん制作プロジェクト',
+  en: 'Code for FUKUI - Stockpiling Navi Echizen Project',
 }
 export const ADDRESS = {
-  ja: '***',
+  ja: '***A',
   en: '***',
 }
 const NAVDATA = [

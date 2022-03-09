@@ -34,7 +34,7 @@
             id="upstairs2"
             v-model="isUpstairs"
             type="radio"
-            :value="false"
+            :value="true"
           />
           <label for="upstairs2" tabindex="0" v-html="$t('text02')" />
         </div>
@@ -44,7 +44,7 @@
             id="upstairs1"
             v-model="isUpstairs"
             type="radio"
-            :value="true"
+            :value="false"
           />
           <label for="upstairs1" tabindex="0" v-html="$t('text03')" />
         </div>

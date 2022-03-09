@@ -16,13 +16,20 @@
 <template>
   <div class="HomeLead PageBlock">
     <section class="Container -s">
+      <img src="~/assets/images/title.png" style="width:90vw;">
       <h1 class="PageBlock__title">{{ $t('title') }}</h1>
+
+      <div style="text-align: center;margin-top: 1em;">
+        <img src="~/assets/images/mainchar.jpg" style="height:8em;">
+      </div>
 
       <div class="Container -xs">
         <p class="PageBlock__text">
           {{ $t('text01') }}
         </p>
       </div>
+
+
 
       <div class="HomeLead__button">
         <div class="Button -yellow -l">
