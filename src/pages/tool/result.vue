@@ -573,6 +573,10 @@ export default {
     const skinCareGroup = states.filter(
       (state) => /Female/.test(state) && !/^(infants|child1)/.test(state)
     )
+    // 大人グループ
+    const adultGroup = (() => {
+      return states.every((state) => /adult/.test(state) || /aged/.test(state))
+    })()
     const sumQuantity = (quantity, required) => {
       if (typeof required === 'object') {
         for (const state of states) {
@@ -649,6 +653,10 @@ export default {
           quantity = skinCareGroup.length
         } else if (id === 59) {
           quantity = ''
+        } else if (id === 66) {
+          if (adultGroup) {
+            quantity = 1
+          }
         } else {
           // イレギュラーではない品目
           quantity = Math.ceil(sumQuantity(quantity, required) * stockpileRate)
@@ -724,7 +732,7 @@ ${item[this.$i18n.locale]} ${quantity}${unit[this.$i18n.locale]}`
 このリスト以外にも、赤ちゃんの月齢に合ったオムツなど、各家庭の事情に合わせたものを準備しておきましょう。
 `
       }
-
+console.log("***", innerStockpileList);
       for (const stockpile of innerStockpileList) {
         const { quantity, item, unit } = stockpile
 

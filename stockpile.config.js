@@ -6,7 +6,7 @@ export const downStairsRate = 3
 
 export const categoryA1 = [7]
 export const categoryA2 = [10, 13, 14]
-export const categoryB1 = [19, 20, 23, 24, 25, 26, 31, 38, 40, 42, 61, 62]
+export const categoryB1 = [19, 20, 23, 24, 25, 26, 31, 38, 40, 42, 61, 62, 63, 64, 65]
 export const categoryB2 = [21, 29]
 export const categoryB3 = [35]
 export const categoryC = [41, 60]
@@ -2114,11 +2114,115 @@ export const stockpileList = [
       amazon: 'http://amzn.to/3bwPcnV',
     },
   },
+  {
+    id: 63,
+    category: {
+      ja: '雪対策',
+      en: 'Winter',
+    },
+    item: {
+      ja: '防寒具',
+      en: 'Winter clothes',
+    },
+    unit: {
+      ja: '個',
+      en: 'unit',
+    },
+    description: {
+      ja:
+        '雪かきなど外出には必需品。暖房が止まっても安心。',
+      en:
+        'A must-have for snow shoveling and other outings. Safe even when the heating stops.',
+    },
+    url: {
+      yahoo: '',
+      rakuten: '',
+      amazon: 'https://amzn.to/3vXJK9w',
+    },
+  },
+  {
+    id: 64,
+    category: {
+      ja: '雪対策',
+      en: 'Winter',
+    },
+    item: {
+      ja: 'スコップ',
+      en: 'Shovel',
+    },
+    unit: {
+      ja: '個',
+      en: 'unit',
+    },
+    description: {
+      ja:
+        '大雪時には必須。車のマフラーが埋まらないよう除雪しましょう。',
+      en:
+        'A must-have for snow shoveling. Plow the snow so that the muffler of your car does not get buried.',
+    },
+    url: {
+      yahoo: '',
+      rakuten: '',
+      amazon: 'https://amzn.to/3HVyywk',
+    },
+  },
+  {
+    id: 65,
+    category: {
+      ja: 'メンタル',
+      en: 'Mental',
+    },
+    item: {
+      ja: 'トランプ',
+      en: 'Playing cards',
+    },
+    unit: {
+      ja: '個',
+      en: 'unit',
+    },
+    description: {
+      ja:
+        '長引く避難生活に楽しみを。',
+      en:
+        'Fun with Playing cards.',
+    },
+    url: {
+      yahoo: '',
+      rakuten: '',
+      amazon: 'https://amzn.to/36ee2tS',
+    },
+  },
+  {
+    id: 66,
+    category: {
+      ja: 'メンタル',
+      en: 'Mental',
+    },
+    item: {
+      ja: '酒',
+      en: 'Shovel',
+    },
+    unit: {
+      ja: '個',
+      en: 'unit',
+    },
+    description: {
+      ja:
+        '長引く避難生活に潤いを。お酒は二十歳から。',
+      en:
+        'Sake is a lubricant.',
+    },
+    url: {
+      yahoo: '',
+      rakuten: '',
+      amazon: 'https://amzn.to/3I6823o',
+    },
+  },
 ]
 
 export const petStockpileList = [
   {
-    id: 63,
+    id: 67,
     category: {
       ja: 'ペット',
       en: 'Pets',
@@ -2140,7 +2244,7 @@ export const petStockpileList = [
     },
   },
   {
-    id: 64,
+    id: 68,
     category: {
       ja: 'ペット',
       en: 'Pets',
@@ -2162,7 +2266,7 @@ export const petStockpileList = [
     },
   },
   {
-    id: 65,
+    id: 69,
     category: {
       ja: 'ペット',
       en: 'Pets',
@@ -2184,7 +2288,7 @@ export const petStockpileList = [
     },
   },
   {
-    id: 66,
+    id: 70,
     category: {
       ja: 'ペット',
       en: 'Pets',
@@ -2206,7 +2310,7 @@ export const petStockpileList = [
     },
   },
   {
-    id: 67,
+    id: 71,
     category: {
       ja: 'ペット',
       en: 'Pets',
