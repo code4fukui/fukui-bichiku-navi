@@ -39,6 +39,7 @@ export default {
   generate: {
     interval: 1000,
     fallback: true,
+    dir: 'docs'
   },
   router: {
     base: ROUTER_BASE_DIR,
