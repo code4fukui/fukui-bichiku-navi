@@ -35,7 +35,7 @@ const conv = (list, imgpath, imgoffset = 0, pet = "") => {
   });
 };
 
-const base = "https://bichiku.code4fukui.org/opendata/";
+const base = "https://bichikunavi.code4fukui.org/opendata/";
 const data = conv(stockpileList, base + "img");
 const data2 = data.concat(conv(petStockpileList, base + "img/pet", data.length, 1));
 
