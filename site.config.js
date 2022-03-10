@@ -18,8 +18,8 @@ export const ADMIN = {
   en: '***',
 }
 export const DEVELOPPER = {
-  ja: 'Code for FUKUI - 備蓄ナビえちぜん制作プロジェクト',
-  en: 'Code for FUKUI - Stockpiling Navi Echizen Project',
+  ja: 'Code for FUKUI - 備蓄ナビえちぜん制作プロジェクト (たんなん夢レディオ / Code for FUKUI / 越前市防災士の会 / 福井高専 / 越前市)',
+  en: 'Code for FUKUI - Stockpiling Navi Echizen Project (Tannan FM / Code for FUKUI / Echizen-city BOSAISHINOKAI / Fukui KOSEN / Echizen-city)',
 }
 export const ADDRESS = {
   ja: '***A',

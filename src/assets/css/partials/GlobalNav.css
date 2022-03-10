@@ -1,6 +1,7 @@
 .GlobalNav {
   margin-bottom: rem(80px);
-  background-color: var(--colorNavy);
+  /*background-color: var(--colorNavy);*/
+  background-color: #79CAD2;
 
   & .GlobalNav__list {
     display: flex;
@@ -17,7 +18,8 @@
 
     & > li.GlobalNav__list--tool {
       & > a {
-        color: var(--colorYellow);
+        /*color: var(--colorYellow);*/
+        color: white;
       }
 
       & .nuxt-link-active,

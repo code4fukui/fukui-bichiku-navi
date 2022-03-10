@@ -15,7 +15,8 @@ body.PageSettings {
     font-size: rem(13px);
     color: #fff;
     text-align: center;
-    background-color: var(--colorSpecifed1);
+    /*background-color: var(--colorSpecifed1);*/
+    background-color: #79CAD2;
   }
 }
 
