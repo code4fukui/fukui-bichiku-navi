@@ -4,19 +4,19 @@
     "text01": "確認ウィンドウを閉じる",
     "text02": "ご注意",
     "text03": "ここから先は",
-    "text04": "○○○が管理・運営するサイトではありません",
-    "text05": "購入した商品等で生じたいかなる損害・トラブルにつき○○○は責任を負いかねます",
-    "text06": "○○○などをかたるなりすまし商品・サイトには十分ご注意ください",
-    "text07": "同意してページを移動する"
+    "text04": "備蓄ナビえちぜんが管理・運営するサイトではありません",
+    "text05": " ",
+    "text06": " ",
+    "text07": "ページを移動する"
   },
   "en": {
     "text01": "Close the window.",
     "text02": "Attention",
     "text03": "If you click \"Agree and move page\", you will be taken to a site ",
-    "text04": "that is not managed or operated by ***.",
-    "text05": "Therefore, the *** is not responsible for any damage or trouble caused by the products you purchased.",
-    "text06": "Also, please be careful about spoofing sites and spoofing products that pretend to be ***.",
-    "text07": "Agree and move page"
+    "text04": "that is not managed or operated by Bichikunavi Echizen.",
+    "text05": " ",
+    "text06": " ",
+    "text07": "Move page"
   }
 }
 </i18n>
@@ -34,10 +34,6 @@
       <li>
         {{ $t('text03') }}<span>{{ $t('text04') }}</span>
       </li>
-      <li>
-        {{ $t('text05') }}
-      </li>
-      <li>{{ $t('text06') }}</li>
     </ul>
 
     <a
