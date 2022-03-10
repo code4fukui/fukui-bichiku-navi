@@ -1,6 +1,6 @@
 import { CSV } from "https://js.sabae.cc/CSV.js";
 import { fix0 } from "https://js.sabae.cc/fix0.js";
-import { stockpileList, petStockpileList } from "../stockpile.config.js";
+import { stockpileList, petStockpileList } from "../../../stockpile.config.js";
 
 console.log(stockpileList);
 
@@ -35,8 +35,8 @@ const conv = (list, imgpath, imgoffset = 0, pet = "") => {
   });
 };
 
-const base = "https://code4fukui.github.io/tokyobichikunavi/";
-const data = conv(stockpileList, base + "src/assets/images/tool/result/stockpile");
-const data2 = data.concat(conv(petStockpileList, base + "src/assets/images/tool/result/stockpile/pet", data.length, 1));
+const base = "https://bichiku.code4fukui.org/opendata/";
+const data = conv(stockpileList, base + "img");
+const data2 = data.concat(conv(petStockpileList, base + "img/pet", data.length, 1));
 
 await Deno.writeTextFile("stockpile_list.csv", CSV.stringify(data2));
