@@ -96,6 +96,7 @@ export default {
     head.meta.push({ hid: 'og:url', property: 'og:url', content: url })
 
     // OGP画像URL
+    /*
     if (this.meta.image) {
       const imageUrl = `${siteUrl}${this.$router.history.base}${ogpDir}${this.meta.image}`
       head.meta.push({
@@ -110,7 +111,7 @@ export default {
         content: `${siteUrl}${ogpDir}/common1.jpg`,
       })
     }
-
+    */
     return head
   },
 }

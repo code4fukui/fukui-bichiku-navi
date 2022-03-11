@@ -69,7 +69,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${OGP_DIR}/common1.jpg`,
+        content: `https://bichikunavi.code4fukui.org/ogp/bichikunavi.jpg`,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
