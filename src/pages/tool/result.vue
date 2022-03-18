@@ -678,10 +678,10 @@ export default {
 
       if (this.$i18n.locale === 'ja') {
         message = '備蓄ナビえちぜんで自分に合った備蓄を調べてみよう'
-        url = '***'
+        url = 'https://bichikunavi.code4fukui.org/'
       } else {
         message = 'Find out the adequate stockpiling for you'
-        url = '***'
+        url = 'https://bichikunavi.code4fukui.org/en/'
       }
 
       shareText += encodeText(`
