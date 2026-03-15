@@ -1,37 +1,42 @@
-# 備蓄ナビえちぜん
+# Fukui Bichiku Navi
 
-- [備蓄ナビえちぜん](https://bichikunavi.code4fukui.org/)
+The Fukui Bichiku Navi is a website that provides information about disaster preparedness and stockpiling for the Echizen city community.
 
-# 関連プロジェクト
+## Related Projects
 
-- [備蓄品アイテム一覧](https://bichikunavi.code4fukui.org/opendata/list.html) ([画像一覧](https://github.com/code4fukui/fukui-bichiku-navi/tree/master/docs/opendata/img))
-- [備蓄カード](https://bichikunavi.code4fukui.org/opendata/card.html) ([English ver.](https://bichikunavi.code4fukui.org/opendata/card_en.html))
-- [サイガイクン](https://github.com/code4fukui/saigaikun)
+- [Stockpile Item List](https://bichikunavi.code4fukui.org/opendata/list.html) ([Image List](https://github.com/code4fukui/fukui-bichiku-navi/tree/master/docs/opendata/img))
+- [Stockpile Cards](https://bichikunavi.code4fukui.org/opendata/card.html) ([English ver.](https://bichikunavi.code4fukui.org/opendata/card_en.html))
+- [Saigaikun](https://github.com/code4fukui/saigaikun)
 
-## 参画メンバー
+## Project Members
 
-- [越前市役所](https://www.city.echizen.lg.jp/)
-- [越前市防災士の会](https://www.city.echizen.lg.jp/office/010/060/bousai/bousaisinokai.html)
-- [福井高専](https://www.fukui-nct.ac.jp/)
+- [Echizen City Office](https://www.city.echizen.lg.jp/)
+- [Echizen City Disaster Prevention Volunteer Association](https://www.city.echizen.lg.jp/office/010/060/bousai/bousaisinokai.html)
+- [Fukui National College of Technology](https://www.fukui-nct.ac.jp/)
 - [Code for FUKUI](https://code4fukui.github.io/)
 
-## 東京都副知事、宮坂さんからのメッセージ
+## Message from Tokyo Vice Governor Miyasaka
 
-みなさんこんにちは。今日は、越前市版の備蓄ナビ、[備蓄ナビえちぜん](https://bichikunavi.code4fukui.org/)のお披露目ということでメッセージを送らせてもらいます。
-遅れましたが東京都副知事の“宮坂”でございます。
-まずは、リリースの方本当におめでとうございます。
+Hello everyone. Today, I would like to send a message for the unveiling of the Stockpiling Navi Echizen, the Echizen city version.
+I am the Vice Governor of Tokyo, "Miyasaka", although I am a bit late.
+First of all, congratulations on the release.
 
-そして合わせて今回の備蓄ナビですが、東京都の方で作った、オープンソースで作らせてもらった、[東京都の備蓄ナビ](https://www.bichiku.metro.tokyo.lg.jp/)をもとにつくっていただいたということで本当に嬉しいです。
-オープンソースを行政の現場で生かすというのは、海外では当たり前になっているようなのですが、日本ではまだめずらしいぐらいです。これが是非これから何年かかけて珍しくなく、当たり前と言われるようになればいいなと思います。
+And combined with this Stockpiling Navi, I am very pleased that it was created based on the Tokyo Metropolitan Government's Stockpiling Navi, which we made as an open-source project.
+Using open source in the field of administration is becoming commonplace overseas, but in Japan it is still rare. 
+I hope that in a few years it will become common and natural.
 
-行政のデジタル化を今からどんどん進めていくわけですが、何よりも大事なのはそれぞれの区市町村や国など都道府県で頑張っている公務員がお互いの知恵を自分の範囲だけにとどめずに交換しながら共有しながら進めていくことです。その共有交換の最も効率的な方法の一つが実はお互いで作ったものをオープンソースにして共有していくことです、そうすると今回東京都が作ったものを越前市でも使ってもらえますし、逆に越前市さんの方でより良い機能があれば我々も取り込むことができます。そうすれば日本のたくさんの公務員の力というものを一つに結集してデジタル化がどんどん捗ると思いますので本当に素晴らしい取り組みだと思います。是非今後とも一緒になってオープンソースの世界を盛り上げて行ければと思います。
+As we are now promoting the digitization of administration, the most important thing is that the public servants who are working hard in each municipality and prefecture exchange and share their wisdom with each other, not just within their own jurisdiction.
+One of the most efficient ways to share this exchange is to make what we have created open source and share it.
+Then Echizen City can use what Tokyo has created, and if there are better functions in Echizen City, we can also incorporate them.
+If we do this, the power of the many public servants in Japan can be gathered together to accelerate digitization, so I think this is a wonderful initiative.
+I hope we can work together to promote the open source world in the future.
 
-合わせて本当に今日はおめでとうございます。
+Congratulations again today.
 
-- [備蓄ナビえちぜんへの東京都副知事宮坂守さんからの動画メッセージ - 越前市](https://www.city.echizen.lg.jp/office/010/021/bitikunavi.html) を元に、Code for FUKUI で文字起こししました
+- Transcribed from the [message video from Tokyo Vice Governor Miyasaka to Stockpiling Navi Echizen - Echizen City](https://www.city.echizen.lg.jp/office/010/021/bitikunavi.html) by Code for FUKUI.
 
-## ライセンス
-本ソフトウェアは、MITライセンスのもと提供されています。
+## License
+This software is provided under the MIT License.
 
 #### MIT License
 Copyright (c) 2022 Code for FUKUI and other contributors.  
