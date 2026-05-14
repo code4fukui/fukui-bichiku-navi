@@ -90,3 +90,5 @@ sw.*
 *.swp
 
 px.txt
+# meta-ops cleanup
+Thumbs.db
