@@ -1,67 +1,73 @@
-# 備蓄ナビえちぜん
+# Fukui Bichiku Navi (Stockpiling Navi Echizen)
 
-- [備蓄ナビえちぜん](https://bichikunavi.code4fukui.org/)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-# 関連プロジェクト
+Fukui Bichiku Navi is a disaster preparedness website providing personalized emergency stockpiling information for Echizen City, Fukui. Based on Tokyo's open-source "Tokyo Bichiku Navi" project, it demonstrates municipal collaboration through shared digital resources.
 
-- [備蓄品アイテム一覧](https://bichikunavi.code4fukui.org/opendata/list.html) ([画像一覧](https://github.com/code4fukui/fukui-bichiku-navi/tree/master/docs/opendata/img))
-- [備蓄カード](https://bichikunavi.code4fukui.org/opendata/card.html) ([English ver.](https://bichikunavi.code4fukui.org/opendata/card_en.html))
-- [サイガイクン](https://github.com/code4fukui/saigaikun)
+## Demo
 
-## 参画メンバー
+**[https://bichikunavi.code4fukui.org/](https://bichikunavi.code4fukui.org/)**
 
-- [越前市役所](https://www.city.echizen.lg.jp/)
-- [越前市防災士の会](https://www.city.echizen.lg.jp/office/010/060/bousai/bousaisinokai.html)
-- [福井高専](https://www.fukui-nct.ac.jp/)
-- [Code for FUKUI](https://code4fukui.github.io/)
+## Features
 
-## 東京都副知事、宮坂さんからのメッセージ
+-   **Personalized Recommendations**: Generate a 1-week emergency stockpile list based on family size, age, and gender.
+-   **Printable Cards**: Download cards for offline learning and games.
+-   **Disaster Game**: Learn through the integrated "Saigaikun" game.
+-   **Shelter Map**: View Echizen City's official evacuation shelter map.
+-   **Accessibility**: Adjust text size and color schemes.
+-   **Multilingual**: Available in Japanese and English.
 
-みなさんこんにちは。今日は、越前市版の備蓄ナビ、[備蓄ナビえちぜん](https://bichikunavi.code4fukui.org/)のお披露目ということでメッセージを送らせてもらいます。
-遅れましたが東京都副知事の“宮坂”でございます。
-まずは、リリースの方本当におめでとうございます。
+## Open Data & Resources
 
-そして合わせて今回の備蓄ナビですが、東京都の方で作った、オープンソースで作らせてもらった、[東京都の備蓄ナビ](https://www.bichiku.metro.tokyo.lg.jp/)をもとにつくっていただいたということで本当に嬉しいです。
-オープンソースを行政の現場で生かすというのは、海外では当たり前になっているようなのですが、日本ではまだめずらしいぐらいです。これが是非これから何年かかけて珍しくなく、当たり前と言われるようになればいいなと思います。
+-   **[Stockpile List](https://bichikunavi.code4fukui.org/opendata/list.html)**
+    -   **[Images](https://github.com/code4fukui/fukui-bichiku-navi/tree/master/docs/opendata/img)**
+-   **[Printable Cards](https://bichikunavi.code4fukui.org/opendata/card.html)** ([English](https://bichikunavi.code4fukui.org/opendata/card_en.html))
+-   **[Saigaikun Game](https://github.com/code4fukui/saigaikun)**
 
-行政のデジタル化を今からどんどん進めていくわけですが、何よりも大事なのはそれぞれの区市町村や国など都道府県で頑張っている公務員がお互いの知恵を自分の範囲だけにとどめずに交換しながら共有しながら進めていくことです。その共有交換の最も効率的な方法の一つが実はお互いで作ったものをオープンソースにして共有していくことです、そうすると今回東京都が作ったものを越前市でも使ってもらえますし、逆に越前市さんの方でより良い機能があれば我々も取り込むことができます。そうすれば日本のたくさんの公務員の力というものを一つに結集してデジタル化がどんどん捗ると思いますので本当に素晴らしい取り組みだと思います。是非今後とも一緒になってオープンソースの世界を盛り上げて行ければと思います。
+## Development Setup
 
-合わせて本当に今日はおめでとうございます。
-
-- [備蓄ナビえちぜんへの東京都副知事宮坂守さんからの動画メッセージ - 越前市](https://www.city.echizen.lg.jp/office/010/021/bitikunavi.html) を元に、Code for FUKUI で文字起こししました
-
-## ライセンス
-本ソフトウェアは、MITライセンスのもと提供されています。
-
-#### MIT License
-Copyright (c) 2022 Code for FUKUI and other contributors.  
-Copyright (c) 2021 Tokyo Metropolitan Government and other contributors.  
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without  restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Notice
-
-**Don't edit tips.config.js because It is generated automatically.**
-
-## Build Setup
+Built with [Nuxt.js](https://nuxtjs.org/).
 
 ```bash
-# install dependencies
-$ npm ci
+# Clone the repository
+git clone https://github.com/code4fukui/fukui-bichiku-navi.git
+cd fukui-bichiku-navi
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# Install dependencies
+npm install
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+# Run the development server at http://localhost:3000
+npm run dev
 
-# generate static project
-$ npm run generate
+# Build for production (generates a static site in /docs)
+npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Project Members
+
+-   [Echizen City Office](https://www.city.echizen.lg.jp/)
+-   [Echizen City Disaster Prevention Volunteer Association](https://www.city.echizen.lg.jp/office/010/060/bousai/bousaisinokai.html)
+-   [Fukui National College of Technology](https://www.fukui-nct.ac.jp/)
+-   [Code for FUKUI](https://code4fukui.github.io/)
+
+<details>
+<summary>A Message from Tokyo Vice Governor Manabu Miyasaka</summary>
+
+> Congratulations on the release of Stockpiling Navi Echizen. This project, based on Tokyo's open-source initiative, exemplifies how municipalities can share digital resources to enhance public services. By embracing open-source collaboration, we can accelerate administrative digitization and strengthen community resilience.
+> 
+> ---
+> *Full message (transcribed from the [original video](https://www.city.echizen.lg.jp/office/010/021/bitikunavi.html)):*
+> 
+> Hello everyone. Today, I would like to send a message for the unveiling of the Stockpiling Navi Echizen, the Echizen city version. I am the Vice Governor of Tokyo, "Miyasaka", although I am a bit late. First of all, congratulations on the release.
+>
+> And combined with this Stockpiling Navi, I am very pleased that it was created based on the Tokyo Metropolitan Government's Stockpiling Navi, which we made as an open-source project. Using open source in the field of administration is becoming commonplace overseas, but in Japan it is still rare. I hope that in a few years it will become common and natural.
+>
+> As we are now promoting the digitization of administration, the most important thing is that the public servants who are working hard in each municipality and prefecture exchange and share their wisdom with each other, not just within their own jurisdiction. One of the most efficient ways to share this exchange is to make what we have created open source and share it. Then Echizen City can use what Tokyo has created, and if there are better functions in Echizen City, we can also incorporate them. If we do this, the power of the many public servants in Japan can be gathered together to accelerate digitization, so I think this is a wonderful initiative. I hope we can work together to promote the open source world in the future.
+>
+> Congratulations again today.
+
+</details>
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
